@@ -16,11 +16,11 @@ on the uploaded image)
 
 **Source image:**
 
-`![source image](./screenshots/caption-source.png)`
+![source image](./screenshots/caption-source.png)
 
 **Result:**
 
-`![captioning result](./screenshots/caption-result.png)`
+![captioning result](./screenshots/caption-result.png)
 
 ---
 
@@ -30,11 +30,11 @@ on the uploaded image)
 
 **Source image:**
 
-`![source image](./screenshots/vqa-source.png)`
+![source image](./screenshots/vqa-source.png)
 
 **Result:**
 
-`![vqa result](./screenshots/vqa-result.png)`
+![vqa result](./screenshots/vqa-result.png)
 
 ---
 
@@ -42,11 +42,11 @@ on the uploaded image)
 
 **Source image (containing visible text):**
 
-`![source image](./screenshots/ocr-source.png)`
+![source image](./screenshots/ocr-source.png)
 
 **Result:**
 
-`![ocr result](./screenshots/ocr-result.png)`
+![ocr result](./screenshots/ocr-result.png)
 
 ---
 
@@ -55,8 +55,8 @@ on the uploaded image)
 **Prompt used:** `"A lighthouse on a rocky cliff at sunset, watercolor painting style"`
 
 **Result:**
-![alt text](image.png)
-`![text-to-image result](./screenshots/t2i-result.png)`
+
+![text-to-image result](./screenshots/t2i-result.png)
 
 ---
 
@@ -64,13 +64,13 @@ on the uploaded image)
 
 **Source image:**
 
-`![source image](./screenshots/variation-source.png)`
+![source image](./screenshots/variation-source.png)
 
 **Style prompt used:** `"Make it look like an oil painting"`
 
 **Result:**
 
-`![variation result](./screenshots/variation-result.png)`
+![variation result](./screenshots/variation-result.png)
 
 ---
 
@@ -81,7 +81,7 @@ initial `POST /api/tasks/analyze/caption` returning `202 Accepted`, followed
 by repeated `GET /api/tasks/{task_id}` polling requests every ~2 seconds
 until the final request returns `COMPLETED`.
 
-`![network tab polling](./screenshots/network-polling.png)`
+![network tab polling](./screenshots/network-polling.png)
 
 ---
 
@@ -91,7 +91,7 @@ Screenshot from DBeaver/TablePlus (or `psql`) showing populated rows across
 the `images`, `tasks`, and `results` tables with intact foreign key
 relationships.
 
-`![database tables](./screenshots/db-tables.png)`
+![database tables](./screenshots/db-tables.png)
 
 ---
 
@@ -102,4 +102,4 @@ invalid/expired API key, a content-policy-rejected prompt, or a deliberately
 broken `STORAGE_ENDPOINT_URL`), with the user-friendly error message
 displayed rather than a raw 500.
 
-`![error state](./screenshots/error-state.png)`
+![error state](./screenshots/error-state.png)

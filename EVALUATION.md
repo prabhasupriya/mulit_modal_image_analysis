@@ -4,7 +4,7 @@ This document demonstrates the platform's working features with screenshots
 and the exact prompts used to produce them.
 
 > **Note for evaluators**: screenshots below were captured running the app
-> locally per the README setup steps, with real Anthropic and Stability AI
+> locally per the README setup steps, with real Gemini and Stability AI
 > API keys configured.
 
 ---

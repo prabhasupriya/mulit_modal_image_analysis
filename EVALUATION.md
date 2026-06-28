@@ -66,7 +66,7 @@ on the uploaded image)
 
 ![source image](./screenshots/variation-source.png)
 
-**Style prompt used:** `"Make it look like an oil painting"`
+**Style prompt used:** `"lotus located in the water"`
 
 **Result:**
 
